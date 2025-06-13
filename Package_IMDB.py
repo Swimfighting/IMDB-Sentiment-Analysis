@@ -113,7 +113,7 @@ def file_crawler(path_in):
     tmp_pd = pd.DataFrame()
     for root, dirs, files in os.walk(path_in, topdown=False):
        for name in files:
-           tmp = read_file(root + "/" + name) # read file
+           tmp = read_file(root + "/" + name)
            if tmp is not None:
                if len(tmp) != 0:
                    t_pd = pd.DataFrame(
