@@ -13,7 +13,7 @@ All features are implemented in Package_IMDB.py:
 
 ## Project Status
 
-This project is a work in progress.
+This is an earlier project that I recently revisited and improved before uploading it to GitHub.
 The core package file has been uploaded.
 I will upload the main pipeline script to demonstrate how to use the package.
 
